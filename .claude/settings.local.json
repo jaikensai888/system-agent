@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip cache:*)",
+      "Bash(cd \"C:/Users/jaike/Desktop\" && mv *.png *.jpg *.jpeg *.gif *.bmp *.webp \"图片/\" 2>/dev/null; echo \"Images moved\")",
+      "Bash(cd \"C:/Users/jaike/Desktop\" && mv *.zip *.rar *.7z *.tar *.gz \"压缩包/\" 2>/dev/null; echo \"Archives moved\")",
+      "Bash(cd \"C:/Users/jaike/Desktop\" && mv *.exe *.msi \"程序/\" 2>/dev/null; echo \"Programs moved\")",
+      "Bash(cd \"C:/Users/jaike/Desktop\" && mv *.pdf *.doc *.docx *.xls *.xlsx *.ppt *.pptx *.txt *.md *.html *.bat *.yaml *.json *.xml \"文档/\" 2>/dev/null; echo \"Documents moved\")",
+      "Bash(mv \"C:/Users/jaike/.claude/skills/c-clear/SKILL.md\" \"G:/claude_project/system-agent/.claude/skills/c-clear/\" && mv \"C:/Users/jaike/.claude/skills/desktop-clear/SKILL.md\" \"G:/claude_project/system-agent/.claude/skills/desktop-clear/\")",
+      "Read(//c/Users/jaike/AppData/Local/**)",
+      "Bash(rm -rf cursor-updater upscayl-updater appium-desktop-updater smart-log-reporter-updater arduino-ide-updater marktext-updater balena-etcher-updater xmind-updater qq-chat-updater cherrystudio-updater motrix-updater qq_guild-updater clash_win-updater xhz-board-updater bywave-updater mqttx-updater ariang-native-updater chatglm-updater)",
+      "Bash(ls -d \"C:/Users/jaike/AppData/Local/\"*-updater)"
+    ]
+  }
+}
